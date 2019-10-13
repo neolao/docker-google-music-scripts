@@ -7,6 +7,6 @@ docker run \
   --rm \
   --read-only \
   --volume $PWD/config:/config \
-  --volume $PWD/data:/music \
+  --volume $PWD/music:/music \
   neolao/gms \
   "$@"
