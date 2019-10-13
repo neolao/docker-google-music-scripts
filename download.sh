@@ -9,4 +9,4 @@ docker run \
   --volume $PWD/config:/config \
   --volume $PWD/music:/music \
   neolao/gms \
-  gms download --username myUserName -o '/music/%artist%/%album%/%title%'
+  gms download --username myUserName --verbose -o '/music/%artist%/%album%/%title%'
