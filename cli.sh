@@ -9,4 +9,4 @@ docker run \
   --volume $PWD/config:/config \
   --volume $PWD/music:/music \
   neolao/gms \
-  "$@"
+  gms "$@"
